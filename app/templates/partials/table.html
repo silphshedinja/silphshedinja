@@ -1,0 +1,9 @@
+{% for pokemon in pokemons %}
+    <tr>
+        <td class="border">{{ pokemon.id }}</td>
+        <td class="border">{{ pokemon.dex }}</td>
+        <td class="border">{{ pokemon.name }}</td>
+        <td class="border">{{ pokemon.types }}</td>
+        <td class="border">{{ pokemon.released }}</td>
+    </tr>
+{% endfor %}
